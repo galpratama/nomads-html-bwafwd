@@ -51,6 +51,10 @@ header h1 {
   font-weight: bold;
 }
 
+header p {
+  font-size: 22px;
+}
+
 header .btn-get-started {
   background-color: #FF9E53;
   color: #fff;
@@ -243,6 +247,18 @@ header .btn-get-started:hover {
   border-radius: 11px;
 }
 
+.section-details-content .card-details .trip-informations th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #071c4d;
+}
+
+.section-details-content .card-details .trip-informations td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
 .section-details-content .card-details h1 {
   font-size: 26px;
 }
@@ -254,6 +270,12 @@ header .btn-get-started:hover {
 .section-details-content .card-details p {
   font-size: 18px;
   color: #b1b1b1;
+}
+
+.section-details-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: none;
 }
 
 .section-details-content .gallery .xzoom-container {
@@ -297,5 +319,19 @@ header .btn-get-started:hover {
   width: 45px;
   height: 45px;
   float: left;
+}
+
+.section-details-content .join-container {
+  margin-top: -16px;
+}
+
+.section-details-content .btn-join-now {
+  background-color: #FF9E53;
+  color: #fff;
+  border-radius: 0;
+}
+
+.section-details-content .btn-join-now:hover {
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

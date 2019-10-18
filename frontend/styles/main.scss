@@ -59,6 +59,10 @@ header {
     font-weight: bold;
   }
 
+  p {
+    font-size: 22px;
+  }
+
   .btn-get-started {
     background-color: #FF9E53;
     color: #fff;
@@ -263,6 +267,20 @@ header {
     padding: 30px;
     border-radius: 11px;
 
+    .trip-informations {
+      th {
+        font-weight: 300;
+        font-size: 18px;
+        color: #071c4d;
+      }
+
+      td {
+        font-weight: 300;
+        font-size: 18px;
+        color: #b1b1b1;
+      }
+    }
+
     h1 {
       font-size: 26px;
     }
@@ -275,6 +293,12 @@ header {
       font-size: 18px;
       color: #b1b1b1;
     }
+  }
+
+  .card-right {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: none;
   }
 
   .gallery {
@@ -319,4 +343,20 @@ header {
       float: left;
     }
   }
+
+  .join-container {
+    margin-top: -16px;
+  }
+
+  .btn-join-now {
+    background-color: #FF9E53;
+    color: #fff;
+    border-radius: 0;
+
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
 }
