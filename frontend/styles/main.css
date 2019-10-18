@@ -259,6 +259,16 @@ header .btn-get-started:hover {
   color: #b1b1b1;
 }
 
+.section-details-content .card-details .trip-informations .text-blue {
+  color: #071C4D;
+  font-weight: bold;
+}
+
+.section-details-content .card-details .trip-informations .text-orange {
+  color: #FF9E53;
+  font-weight: bold;
+}
+
 .section-details-content .card-details h1 {
   font-size: 26px;
 }
@@ -269,6 +279,18 @@ header .btn-get-started:hover {
 
 .section-details-content .card-details p {
   font-size: 18px;
+  color: #b1b1b1;
+}
+
+.section-details-content .card-details .payment-instructions {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+
+.section-details-content .card-details .disclaimer {
+  font-weight: 300;
+  font-size: 14px;
   color: #b1b1b1;
 }
 
@@ -333,5 +355,62 @@ header .btn-get-started:hover {
 
 .section-details-content .btn-join-now:hover {
   color: #fff;
+}
+
+.section-details-content .bank .bank-item h3 {
+  font-size: 18px;
+  color: #071c4d;
+  margin-bottom: 0;
+}
+
+.section-details-content .bank .bank-item p {
+  margin-bottom: 0;
+}
+
+.section-details-content .bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .bank .bank-item .description p {
+  font-family: Assistant;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  color: #071c4d;
+}
+
+.section-details-content .bank .bank-item .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .btn-add-now {
+  background-color: #071C4D;
+  color: #fff;
+}
+
+.section-details-content .btn-add-now:hover {
+  color: #fff;
+}
+
+.section-details-content .input-group-text {
+  background-color: transparent;
+}
+
+.section-details-content h3 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #071c4d;
+}
+
+.section-details-content .gj-datepicker .datepicker {
+  border-right: 0;
+}
+
+.section-details-content .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
 }
 /*# sourceMappingURL=main.css.map */

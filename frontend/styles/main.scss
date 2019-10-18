@@ -279,6 +279,16 @@ header {
         font-size: 18px;
         color: #b1b1b1;
       }
+
+      .text-blue {
+        color: #071C4D;
+        font-weight: bold;
+      }
+
+      .text-orange {
+        color: #FF9E53;
+        font-weight: bold;
+      }
     }
 
     h1 {
@@ -293,6 +303,19 @@ header {
       font-size: 18px;
       color: #b1b1b1;
     }
+
+    .payment-instructions {
+      font-weight: 300;
+      font-size: 14px;
+      color: #b1b1b1;
+    }
+
+    .disclaimer {
+      font-weight: 300;
+      font-size: 14px;
+      color: #b1b1b1;
+    }
+
   }
 
   .card-right {
@@ -359,4 +382,70 @@ header {
     }
   }
 
+  .bank {
+    .bank-item {
+
+      h3 {
+        font-size: 18px;
+        color: #071c4d;
+        margin-bottom: 0;
+      }
+
+      p {
+        margin-bottom: 0;
+      }
+
+      .description {
+        margin-left: 10px;
+        overflow: hidden;
+        float: left;
+
+        p {
+          font-family: Assistant;
+          font-weight: normal;
+          font-size: 16px;
+          text-align: left;
+          color: #071c4d;
+        }
+      }
+
+      .bank-image {
+        width: 45px;
+        height: 45px;
+        float: left;
+      }
+    }
+  }
+
+  .btn-add-now {
+    background-color: #071C4D;
+    color: #fff;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .input-group-text {
+    background-color: transparent;
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #071c4d;
+  }
+
+  .gj-datepicker {
+    .datepicker {
+      border-right: 0;
+    }
+
+    .input-group-append {
+      .btn {
+        padding-right: 30px;
+      }
+    }
+
+  }
 }

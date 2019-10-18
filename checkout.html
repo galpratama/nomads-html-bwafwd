@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Details</title>
+    <link
+      rel="stylesheet"
+      href="frontend/libraries/bootstrap/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="frontend/styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Assistant:200,400,700&&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="frontend/libraries/xzoom/dist/xzoom.css" />
+    <link rel="stylesheet" href="frontend/libraries/gijgo/css/gijgo.min.css" />
+  </head>
+  <body>
+    <!-- Semantic elements -->
+    <!-- https://www.w3schools.com/html/html5_semantic_elements.asp -->
+
+    <!-- Bootstrap navbar example -->
+    <!-- https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp -->
+    <div class="container">
+      <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+        <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
+          <a class="navbar-brand" href="index.html">
+            <img src="frontend/images/logo.png" alt="" />
+          </a>
+        </div>
+        <ul class="navbar-nav mr-auto d-none d-lg-block">
+          <li>
+            <span class="text-muted"
+              >| &nbsp; Beyond the explorer of the world</span
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <main>
+      <section class="section-details-header"></section>
+      <section class="section-details-content">
+        <div class="container">
+          <div class="row">
+            <div class="col p-0 pl-3 pl-lg-0">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item" aria-current="page">
+                    Paket Travel
+                  </li>
+                  <li class="breadcrumb-item" aria-current="page">
+                    Details
+                  </li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    Checkout
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 pl-lg-0">
+              <div class="card card-details mb-3">
+                <h1>Who is Going?</h1>
+                <p>
+                  Trip to Ubud, Bali, Indonesia
+                </p>
+                <div class="attendee">
+                  <table class="table table-responsive-sm text-center">
+                    <thead>
+                      <tr>
+                        <td scope="col">Picture</td>
+                        <td scope="col">Name</td>
+                        <td scope="col">Nationality</td>
+                        <td scope="col">Visa</td>
+                        <td scope="col">Passport</td>
+                        <td scope="col"></td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <img
+                            src="frontend/images/avatar-4.png"
+                            alt=""
+                            height="60"
+                          />
+                        </td>
+                        <td class="align-middle">Angga Risky</td>
+                        <td class="align-middle">CN</td>
+                        <td class="align-middle">N/A</td>
+                        <td class="align-middle">Active</td>
+                        <td class="align-middle">
+                          <a href="#">
+                            <img src="frontend/images/ic_remove.png" alt="" />
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="frontend/images/avatar-5.png"
+                            alt=""
+                            height="60"
+                          />
+                        </td>
+                        <td class="align-middle">Galih Pratama</td>
+                        <td class="align-middle">SG</td>
+                        <td class="align-middle">30 Days</td>
+                        <td class="align-middle">Active</td>
+                        <td class="align-middle">
+                          <a href="#">
+                            <img src="frontend/images/ic_remove.png" alt="" />
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="member mt-3">
+                  <h2>Add Member</h2>
+                  <form class="form-inline">
+                    <label class="sr-only" for="inputUsername">Name</label>
+                    <input
+                      type="text"
+                      class="form-control mb-2 mr-sm-2"
+                      id="inputUsername"
+                      placeholder="Username"
+                    />
+
+                    <label
+                      class="sr-only"
+                      class="mr-2"
+                      for="inlineFormCustomSelectPref"
+                      >Preference</label
+                    >
+                    <select
+                      class="custom-select mb-2 mr-sm-2"
+                      id="inlineFormCustomSelectPref"
+                    >
+                      <option selected value="">VISA</option>
+                      <option value="2">30 Days</option>
+                      <option value="3">N/A</option>
+                    </select>
+
+                    <label class="sr-only" for="doePassport"
+                      >DOE Passport</label
+                    >
+                    <div class="input-group mb-2 mr-sm-2">
+                      <input
+                        type="text"
+                        class="form-control datepicker"
+                        id="doePassport"
+                        placeholder="DOE Passport"
+                      />
+                    </div>
+
+                    <button type="submit" class="btn btn-add-now mb-2 px-4">
+                      Add Now
+                    </button>
+                  </form>
+                  <h3 class="mt-2 mb-0">Note</h3>
+                  <p class="disclaimer mb-0">
+                    You are only able to invite member that has registered in
+                    Nomads.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card card-details card-right">
+                <h2>Checkout Information</h2>
+                <table class="trip-informations">
+                  <tr>
+                    <th width="50%">Members</th>
+                    <td width="50%" class="text-right">2 person</td>
+                  </tr>
+                  <tr>
+                    <th width="50%">Additional Visa</th>
+                    <td width="50%" class="text-right">$ 190,00</td>
+                  </tr>
+                  <tr>
+                    <th width="50%">Trip Price</th>
+                    <td width="50%" class="text-right">$ 80,00 / person</td>
+                  </tr>
+                  <tr>
+                    <th width="50%">Sub Total</th>
+                    <td width="50%" class="text-right">$ 280,00</td>
+                  </tr>
+                  <tr>
+                    <th width="50%">Total (+Unique)</th>
+                    <td width="50%" class="text-right text-total">
+                      <span class="text-blue">$ 279,</span
+                      ><span class="text-orange">33</span>
+                    </td>
+                  </tr>
+                </table>
+
+                <hr />
+                <h2>Payment Instructions</h2>
+                <p class="payment-instructions">
+                  Please complete your payment before to continue the wonderful
+                  trip
+                </p>
+                <div class="bank">
+                  <div class="bank-item pb-3">
+                    <img
+                      src="frontend/images/ic_bank.png"
+                      alt=""
+                      class="bank-image"
+                    />
+                    <div class="description">
+                      <h3>PT Nomads ID</h3>
+                      <p>
+                        0881 8829 8800
+                        <br />
+                        Bank Central Asia
+                      </p>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="bank-item">
+                    <img
+                      src="frontend/images/ic_bank.png"
+                      alt=""
+                      class="bank-image"
+                    />
+                    <div class="description">
+                      <h3>PT Nomads ID</h3>
+                      <p>
+                        0899 8501 7888
+                        <br />
+                        Bank HSBC
+                      </p>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="join-container">
+                <a href="#" class="btn btn-block btn-join-now mt-3 py-2"
+                  >I Have Made Payment</a
+                >
+              </div>
+              <div class="text-center mt-3">
+                <a href="#" class="text-muted">Cancel Booking</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="section-footer mt-5 mb-4 border-top">
+      <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-12 col-lg-3">
+                    <h5>FEATURES</h5>
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#">Reviews</a>
+                      </li>
+                      <li>
+                        <a href="#">Community</a>
+                      </li>
+                      <li>
+                        <a href="#">Social Media Kit</a>
+                      </li>
+                      <li>
+                        <a href="#">Affiliate</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-12 col-lg-3">
+                    <h5>ACCOUNT</h5>
+                    <ul class="list-unstyled">
+                      <li><a href="#">Refund</a></li>
+                      <li><a href="#">Security</a></li>
+                      <li><a href="#">Rewards</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-12 col-lg-3">
+                    <h5>COMPANY</h5>
+                    <ul class="list-unstyled">
+                      <li><a href="#">Career</a></li>
+                      <li><a href="#">Help Center</a></li>
+                      <li><a href="#">Media</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-12 col-lg-3">
+                    <h5>Get Connected</h5>
+                    <ul class="list-unstyled">
+                      <li>Jakarta Selatan</li>
+                      <li>Indonesia</li>
+                      <li>0821 - 2222 - 8888</li>
+                      <li>support@nomads.id</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div
+          class="row border-top justify-content-center align-items-center pt-4"
+        >
+          <div class="col-auto text-gray-500 font-weight-light">
+            2019 Copyright Nomads • All rights reserved • Made in Jakarta
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="frontend/libraries/retina/retina.js"></script>
+    <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/libraries/xzoom/dist/xzoom.min.js"></script>
+    <script src="frontend/libraries/gijgo/js/gijgo.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.xzoom, .xzoom-gallery').xzoom({
+          zoomWidth: 500,
+          title: false,
+          tint: '#333',
+          Xoffset: 15
+        });
+
+        $('.datepicker').datepicker({
+          uiLibrary: 'bootstrap4',
+          icons: {
+            rightIcon: '<img src="frontend/images/ic_doe.png" alt="" />'
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
