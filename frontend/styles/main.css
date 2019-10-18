@@ -413,4 +413,30 @@ header .btn-get-started:hover {
 .section-details-content .gj-datepicker .input-group-append .btn {
   padding-right: 30px;
 }
+
+.section-success {
+  height: 90vh;
+}
+
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #071c4d;
+}
+
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.section-success .btn-home-page {
+  border-radius: 4px;
+  background: #071c4d;
+  color: #fff;
+}
+
+.section-success .btn-home-page:hover {
+  color: #fff;
+}
 /*# sourceMappingURL=main.css.map */

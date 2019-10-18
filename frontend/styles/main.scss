@@ -449,3 +449,29 @@ header {
 
   }
 }
+
+.section-success {
+  height: 90vh;
+
+  h1 {
+    font-weight: 600;
+    font-size: 26px;
+    color: #071c4d;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #b1b1b1;
+  }
+
+  .btn-home-page {
+    border-radius: 4px;
+    background: #071c4d;
+    color: #fff;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
